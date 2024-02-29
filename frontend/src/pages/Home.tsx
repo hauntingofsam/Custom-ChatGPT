@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import { Box,useTheme,useMediaQuery } from "@mui/material";
 import TyperAnim from "../components/typer/TyperAnim";
-import Footer from "../components/footer/Footer";
+// import Footer from "../components/footer/Footer";
 const Home=()=>{
     const theme = useTheme();
     const isBelowMd = useMediaQuery(theme.breakpoints.down("md"));
